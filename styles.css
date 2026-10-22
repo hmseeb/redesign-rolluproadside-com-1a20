@@ -146,8 +146,15 @@ p  { text-wrap: pretty; }
 .header {
   position: sticky; top: 0; z-index: 90;
   background: rgba(8,16,29,.92);
-  backdrop-filter: blur(14px);
   border-bottom: 1px solid var(--line);
+}
+/* NOTE: backdrop-filter establishes a containing block for position:fixed
+   descendants. The off-canvas mobile nav below is position:fixed and lives
+   inside .header, so applying the blur at mobile widths would trap the drawer
+   inside the header's box (clipping it to the header height). Only apply the
+   blur at widths where .nav is not fixed. */
+@media (min-width: 1040px) {
+  .header { backdrop-filter: blur(14px); }
 }
 .header__inner {
   display: flex; align-items: center; gap: 20px;
@@ -206,6 +213,7 @@ p  { text-wrap: pretty; }
 
 @media (min-width: 1040px) { .burger { display: none; } .header__phone { display: flex; } }
 @media (max-width: 1039px) {
+  .header { background: rgba(8,16,29,.97); }
   .nav {
     position: fixed; inset: 0 0 0 auto; width: min(380px, 88vw);
     background: var(--ink); border-left: 1px solid var(--line);
