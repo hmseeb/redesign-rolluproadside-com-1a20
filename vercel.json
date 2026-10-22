@@ -1,0 +1,124 @@
+{
+  "redirects": [
+    {
+      "source": "/lugnut-removal",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/lugnut-removal/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-tire",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-tire/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/stripped-lug-nut",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/stripped-lug-nut/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/tire-change",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/tire-change/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/tire-replacement",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/tire-replacement/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/tire-repair",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/tire-repair/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/about-us",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/about-us/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/faqs",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/faqs/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/contact-us",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/contact-us/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/privacy-policy",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/privacy-policy/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/thank-you",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/thank-you/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/review",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/review/",
+      "destination": "/",
+      "permanent": true
+    }
+  ]
+}
